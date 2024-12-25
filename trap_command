@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Set up a trap for SIGINT (Ctrl+C)
+trap "echo 'SIGINT received! Exiting gracefully...'; exit" SIGINT
+
+echo "Press Ctrl+C to stop this script."
+
+# Simulate a long-running task
+while true; do
+    echo "Working..."
+    sleep 2
+done

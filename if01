@@ -1,0 +1,20 @@
+#!/bin/bash
+#set -x
+#set -e
+#set -o pipefail
+
+a=100
+b=111
+c=123
+
+if [ $a -gt $b ]
+then 
+	echo "$a is greather than $b"
+elif [ $c -gt  $b ]
+then
+	echo "$c is greater than  $b"
+#else
+#	:wq!
+#echo "None of the condition is correct"
+
+fi

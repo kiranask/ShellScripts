@@ -1,0 +1,2 @@
+#!/bin/bash
+awk '{ print $1  $4 < 50000 }' sample1.txt
